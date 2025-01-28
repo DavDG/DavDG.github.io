@@ -124,6 +124,8 @@ img {
   margin: 0 auto;
 }
 
+ul, li { margin: 0; padding: -2em; line-height: 1em}
+
 .justify-text {
   text-align: justify;
 }
@@ -135,8 +137,8 @@ img {
 .skills-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
+  -ms-grid-columns: 30% 30% 40%;
+      grid-template-columns: 30% 30% 40%;
   grid-gap: 20px;
 }
 
