@@ -20,7 +20,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'security']
         },
         {
-            image: 'assets/images/SNRKes73.png',
+            image: 'assets/images/envelopes.png',
             link: 'doi.org/10.1051/0004-6361/202554742',
             title: 'Neutron star envelopes with machine learning. A single-hidden-layer neural network application',
             authors: 'Kovlakas, DDG & Rea (A&A)',
