@@ -11,10 +11,28 @@ let render_projects = (slug) => {
 
     let projects_obj = [
           {
+            image: 'assets/images/outbursts_sat.png',
+            link: 'doi.org/10.1051/0004-6361/202554666',
+            title: 'Magnetar outburst models with cooling simulations',
+            authors: 'De Grandis et al. (A&A)',
+            technologies: [],//'Semantic UI', 'CSS3'],
+            description: "Simulations of outbursts as cooling of an hotsopt in the crust of a magnetar with detailed microphysics.",
+            categories: ['featured', 'security']
+        },
+        {
+            image: 'assets/images/SNRKes73.png',
+            link: 'doi.org/10.1051/0004-6361/202554742',
+            title: 'Neutron star envelopes with machine learning. A single-hidden-layer neural network application',
+            authors: 'Kovlakas, DDG & Rea (A&A)',
+            technologies: [],//'Semantic UI', 'CSS3'],
+            description: "Using Machine learning to performa a complex fit of models of shallow NS envelopes, needed to study short-term phenomena.",
+            categories: ['featured', 'security']
+        },
+        {
             image: 'assets/images/SNRKes73.png',
             link: 'https://https://arxiv.org/abs/2412.15811',
-            title: 'IXPE detection of highly polarized X-rays from the magnetar 1E 1841-045 (preprint)',
-            authors: 'Rigoselli et al. (including DDG), preprint',
+            title: 'IXPE detection of highly polarized X-rays from the magnetar 1E 1841-045',
+            authors: 'Rigoselli et al. (including DDG, ApJ)',
             technologies: [],//'Semantic UI', 'CSS3'],
             description: "The first polarimetric X-ray observations of a magnetar in a phase of enhanced activity.",
             categories: ['featured', 'security']
