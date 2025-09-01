@@ -12,7 +12,7 @@ let render_projects = (slug) => {
     let projects_obj = [
           {
             image: 'assets/images/outbursts_sat.png',
-            link: 'doi.org/10.1051/0004-6361/202554666',
+            link: 'https://doi.org/10.1051/0004-6361/202554666',
             title: 'Magnetar outburst models with cooling simulations',
             authors: 'De Grandis et al. (A&A)',
             technologies: [],//'Semantic UI', 'CSS3'],
@@ -21,7 +21,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/envelopes.png',
-            link: 'doi.org/10.1051/0004-6361/202554742',
+            link: 'https://doi.org/10.1051/0004-6361/202554742',
             title: 'Neutron star envelopes with machine learning. A single-hidden-layer neural network application',
             authors: 'Kovlakas, DDG & Rea (A&A)',
             technologies: [],//'Semantic UI', 'CSS3'],
